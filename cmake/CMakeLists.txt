@@ -9,7 +9,7 @@ endif()
 message("cmake build type: ${CMAKE_BUILD_TYPE}")
 
 if(NOT MUDUO_PATH)
-  set(MUDUO_PATH "/home/$ENV{USER}/build/${CMAKE_BUILD_TYPE}-install-cpp11")
+  set(MUDUO_PATH "$ENV{HOME}/build/${CMAKE_BUILD_TYPE}-install-cpp11")
 endif()
 
 set(CMAKE_EXPORT_COMPILE_COMMANDS on)
